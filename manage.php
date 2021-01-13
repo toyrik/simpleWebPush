@@ -56,7 +56,7 @@ include('layout/header.php');
 						</select> </td>
 					</tr>
 					<tr>
-						<td>For</td>
+						<td>Адресат</td>
 						<td><select name="user" class="form-control">
 						<?php 		
 						$allUser = $user->listAll(); 							
@@ -102,11 +102,11 @@ include('layout/header.php');
 		<thead>
 			<tr>
 				<th>№</th>
-				<th>Задание</th>
+				<th>Зарегистрированно</th>
 				<th>Заголовок</th>
 				<th>Сообщение</th>
 				<th>Повторы</th>
-				<th>Пользователь</th>
+				<th>Адресат</th>
 			</tr>
 		</thead>
 		<tbody>
