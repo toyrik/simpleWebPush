@@ -38,7 +38,7 @@ include('layout/header.php');
 						<td><select name="ntime" class="form-control"><option>Немедленно</option></select> </td>
 					</tr>
 					<tr>
-						<td>Повторять (time)</td>
+						<td>Повторять каждые(мин)</td>
 						<td><select name="loops" class="form-control">
 						<?php 
 							for ($i=1; $i<=5 ; $i++) { ?>
@@ -47,7 +47,7 @@ include('layout/header.php');
 						</select></td>
 					</tr>
 					<tr>
-						<td>Повторять каждые (Minute)</td>
+						<td>Повторять (раз)</td>
 						<td><select name="loop_every" class="form-control">
 						<?php 
 						for ($i=1; $i<=60 ; $i++) { ?>
